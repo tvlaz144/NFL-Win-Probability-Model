@@ -39,3 +39,6 @@ insights can help set my model apart from other models, as it will be based not 
 
 Some data that will be collected include: roster quality, coach quality, setting of the game (i.e. home or away, weather), injuries, rest days between games, performance
 over the prior weeks, and advanced statistics over the past couple games (ex: offensive EPA, third-down conversion rate).
+
+A Bradley-Terry elo rating system is also possible, either as a baseline to compare the machine learning model to, or to construct an elo rating to use as a predictor in
+the machine learning model.
