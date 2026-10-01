@@ -26,7 +26,7 @@ Successfully predict the winner of NFL games, based on each team's recent perfor
 ## Data Collection
 
 Historical game data can be collected using the nflfastpy package, which contains play-by-play descriptions and statistics for every NFL game since 1999. Using pandas, any
-relevant information can 
+relevant information can be extracted from the play-by-play data, cleaned, and stored in a dataset that will be used to train the model.
 
 Websites such as https://www.pro-football-reference.com contain additional historical information, as well as lists of players and coaches and their historical profiles on
 a year-by-year basis. This will help establish baselines for evaluating a team's roster and coaches. For example, say a team had a quarterback that made the Pro Bowl that
@@ -39,5 +39,3 @@ insights can help set my model apart from other models, as it will be based not 
 
 Some data that will be collected include: roster quality, coach quality, setting of the game (i.e. home or away, weather), injuries, rest days between games, performance
 over the prior weeks, and advanced statistics over the past couple games (ex: offensive EPA, third-down conversion rate).
-
-T
